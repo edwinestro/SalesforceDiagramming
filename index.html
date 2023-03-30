@@ -1,55 +1,131 @@
 <!DOCTYPE html>
 <html>
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Salesforce Diagram Framework</title>
-        <!-- Include Bootstrap CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-        <!-- Include custom CSS -->
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <!-- Header section -->
-        <header class="container-fluid">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-md-6 text-center">
-                    <a href="https://architect.salesforce.com/" target="_blank">
-                        <img src="Salesforce-logo.jpg" alt="Salesforce Architects Logo">
-                    </a>
-                    <h1>Salesforce Diagram Framework</h1>
-                    <p>Learn why it's the best way to create Salesforce solutions.</p>
-                </div>
-            </div>
-        </header>
-    
-        <!-- Main section -->
-        <main class="container-fluid">
-            <div class="row justify-content-center">
-                <div class="col-md-8">
-                    <!-- Example template section -->
-                    <section>
-                        <h2>Example Template</h2>
-                        <p>Check out this example of the most easy to understand and most used Salesforce Diagram Framework template:</p>
-                        <a href="https://architect.salesforce.com/diagrams/framework/marketing-strategy-sales" target="_blank">Salesforce Diagram Framework Template</a>
-                    </section>
-                </div>
-            </div>
-        </main>
-    
-        <!-- Footer section -->
-        <footer class="container-fluid">
-            <div class="row justify-content-center">
-                <div class="col-md-8 text-center">
-                    <p>Written by Edwin Estrada | Active member since 2022</p>
-                </div>
-            </div>
-        </footer>
-    
-        <!-- Include Bootstrap JS and jQuery -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    </body
-    
+<head>
+	<meta charset="UTF-8">
+	<title>Salesforce Diagram Framework</title>
+	<!-- Include Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<style>
+		body.architect {
+			font-family: "Salesforce Sans";
+			font-size: var(--tds-font-size-md);
+			margin: 0;
+			background-color: var(--tds-color-architect-light);
+			color: var(--tds-color-text);
+		}
+css
+Copy code
+	.theme--architect {
+		--tds-color-theme-dark: var(--tds-color-architect-dark);
+		--tds-color-theme-light: var(--tds-color-architect-light);
+		--tds-color-theme-bright: var(--tds-color-architect-bright);
+	}
+
+	.guide {
+		margin: 0 auto 24px auto;
+		max-width: 1250px;
+	}
+
+	header.architect {
+		background-color: var(--tds-color-architect-dark);
+		color: var(--tds-color-text-inverse);
+		padding: 24px;
+	}
+
+	header.architect img {
+		height: 50vh;
+	}
+
+	header.architect h1 {
+		font-size: var(--tds-font-size-xxl);
+		margin-top: 24px;
+		margin-bottom: 0;
+	}
+
+	header.architect p {
+		font-size: var(--tds-font-size-lg);
+		margin-bottom: 0;
+	}
+
+	main.architect {
+		padding: 24px;
+	}
+
+	main.architect h2 {
+		font-size: var(--tds-font-size-xl);
+		margin-top: 0;
+		margin-bottom: 24px;
+	}
+
+	main.architect p {
+		font-size: var(--tds-font-size-md);
+		margin-bottom: 24px;
+	}
+
+	main.architect a {
+		color: var(--tds-color-salesforce-link);
+	}
+
+	footer.architect {
+		background-color: var(--tds-color-architect-dark);
+		color: var(--tds-color-text-inverse);
+		padding: 24px;
+		margin-top: 24px;
+	}
+
+	footer.architect p {
+		font-size: var(--tds-font-size-md);
+		margin-bottom: 0;
+	}
+</style>
+</head>
+<body class="architect theme--architect">
+	<!-- Header section -->
+	<header class="architect">
+		<div class="guide">
+			<div class="row justify-content-center align-items-center">
+				<div class="col-md-6 text-center">
+					<a href="https://architect.salesforce.com/" target="_blank">
+						<img src="Salesforce-logo.jpg" alt="Salesforce Architects Logo">
+					</a>
+					<h1>Salesforce Diagram Framework</h1>
+					<p>Learn why it's the best way to create Salesforce solutions.</p>
+				</div>
+			</div>
+		</div>
+	</header>
+    <!-- Main section -->
+  <main class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <!-- Example template section -->
+        <section>
+          <h2>Example Template</h2>
+          <p>Check out this example of the most easy to understand and most used Salesforce Diagram Framework template:</p>
+          <a href="https://architect.salesforce.com/diagrams/framework/marketing-strategy-sales" target="_blank">Salesforce Diagram Framework Template</a>
+        </section>
+less
+Copy code
+    <section>
+      <h2>Are you a watcher learner?</h2>
+      <a href="https://www.youtube.com/watch?v=j8lAmqQ1AnI&list=PLn15mOuXqGJUOc-iPmMcLb0HGi4wusJpv" target="_blank">Getting Started with Salesforce Diagrams</a>
+    </section>
+  </div>
+</div>
+  </main>
+  <!-- Footer section -->
+  <footer class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-md-8 text-center">
+        <p>Written by Edwin Estrada | Active member since 2022</p>
+      </div>
+    </div>
+  </footer>
+  <!-- Include Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
 </html>
+    
+
+
